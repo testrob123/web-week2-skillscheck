@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+nav {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #707070;
+}
+
+.nav {
+    width: 90%;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    color: white;
+    padding-top: 15px;
+    font-size: .7em;
+}
+
+.logo {
+    font-size: medium;
+    align-self: flex-start;
+    font-weight: bold;
+}
+
+.links-left {
+    align-self: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    width: 200px;
+}
+
+.links-left li {
+    display: inline-block; 
+   
+}
+
+nav ul{ 
+    list-style-type: none;
+}
+
+section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#themoreyouknow {
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#themoreyouknow h2{
+    font-size: 2.2em; 
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transform:scaleY(1.5);
+}
+.boxRounded {
+    width: 90%;
+    height: 220px;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box{
+    height: 180px;
+    width: 180px;
+    background-color: #a4ffd7;
+    border-radius: 10px;
+}
+
+.rectOrange{
+    height: 200px;
+    width: 90%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.rect {
+    height: 180px;
+    width: 48%;
+    background-color: #ffc36c ;
+}
+
+.textAndPhoto {
+    height: 200px;
+    width: 90%;
+    display: flex;
+    justify-content: center; 
+}
+
+.col{
+    width: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-size: .9em;
+}
+
+#elephant{
+    height: 100%;
+}
+
+footer {
+    height: 60px;
+    background-color: #3a3a56;
+}
